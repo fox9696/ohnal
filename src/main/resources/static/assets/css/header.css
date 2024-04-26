@@ -136,6 +136,7 @@ header .inner-header .menu-open .lnr-menu {
   font-size: 40px;
   font-weight: bold;
   box-shadow: 0 0 1px rgb(70 70 68), 0 0 4px rgb(4, 18, 19);
+  cursor: pointer;
 }
 
 /* header gnb style */

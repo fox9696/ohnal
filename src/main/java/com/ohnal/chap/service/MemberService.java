@@ -60,6 +60,7 @@ public class MemberService {
     public LoginResult authenticate(LoginRequestDTO dto,
                                     HttpSession session,
                                     HttpServletResponse response) {
+        log.info("dto.getEmail: {} ",dto.getEmail());
 
         Member foundMember = memberMapper.findMember(dto.getEmail());
         log.info(String.valueOf(foundMember));

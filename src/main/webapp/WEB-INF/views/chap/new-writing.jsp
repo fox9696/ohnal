@@ -67,12 +67,12 @@
       <div class="write-content1">
         <!-- <label class="write-input" placeholder="게시글 문구를 입력해주세요."></label> -->
         <textarea class="write-input" id="content" name="content" maxlength="200" required placeholder=" 게시물 문구를 작성해주세요."></textarea>
-        <button class="btn" type="submit">등록</button>
+        
       </div>
     </div>
-
+    <button class="btn" type="submit">글등록</button>
   </form>
-
+  
 
   <%@include file="../include/footer.jsp"%>
 
