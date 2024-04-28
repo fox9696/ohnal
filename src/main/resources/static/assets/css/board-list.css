@@ -10,7 +10,7 @@
     margin-right: 30px;
     margin-bottom: 10px;
     background-color: #cedfd7;
-    padding: 24px;
+    padding: 22px;
     height: 49px;
     align-content: center;
     border-radius: 10px;
@@ -18,8 +18,8 @@
     color: black;
     width: 141px;
     cursor: pointer;
-    font-size: 24px;
-    padding-top: 28px;
+    font-size: 22px;
+    padding-top: 24px;
 }
 .upload-btn:hover {
     transition:0.5s;
@@ -32,11 +32,9 @@
     display: flex;
     /* justify-content: space-around; */
     flex-wrap: wrap;
-    margin: 75px 100px;
-    font-family: 'GangwonEdu_OTFBoldA';
     /*margin: 75px 100px;*/
     margin: 0 auto 0;
-
+    font-family: 'GangwonEdu_OTFBoldA', sans-serif;
 }
 
 .top-wrapper {
@@ -62,8 +60,9 @@
     cursor: pointer;
     transition: 0.5s;
     margin-bottom: 70px;
-
     margin-right: 4%;
+    border: solid 1px black;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 .card-container .card-wrapper:nth-child(4n) {
@@ -230,8 +229,10 @@
 .main-content {
     overflow: hidden;
     height: 30px;
-    /*padding-top: 2px;*/
+    /*패딩 이상하면 삭제*/
+    padding-top: 2px;
 }
+
 
 /* 페이지 스타일 /
 / pagination style */
