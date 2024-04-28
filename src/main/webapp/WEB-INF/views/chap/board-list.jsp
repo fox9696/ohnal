@@ -15,10 +15,6 @@
 
     <!-- BEST OOTD 게시판 영역 -->
 
-
-    <!-- 카드 시작 -->
-    <div class="card-container">
-
         <div class="top-wrapper">
             <input id="keywordValue" type="text" value="${s.keyword}" hidden></input>
             <form action="/board/list" method="get">
@@ -32,6 +28,12 @@
             </form>
             <a href="/board/write" class="upload-btn">새 글쓰기</a>
         </div>
+
+        <a class="refresh" href="/board/list?pageNo=${maker.page.pageNo}&amount=${s.amount}&keyword=${s.keyword}" hidden></a>
+
+    <!-- 카드 시작 -->
+    <div class="card-container">
+
 
         <!-- 카드 복사 -->
         <c:forEach var="b" items="${bList}">
