@@ -264,6 +264,7 @@ body {
 }
 
 .card-container .card-wrapper:hover .board-del-btn {
+    width: 15%;
     opacity: 1;
 }
 
@@ -371,6 +372,11 @@ body {
 
 .pagination-custom li.active a,
 .pagination-custom li:hover a {
+    background: #333 !important;
+    color: #fff !important;
+}
+
+.pagination-custom li.hover a{
     background: #333 !important;
     color: #fff !important;
 }
